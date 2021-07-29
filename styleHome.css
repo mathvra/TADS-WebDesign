@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: #E7E7E7;
+}
+
+.top-header{
+    display: flex;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: none;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+
+    /* background-color: aquamarine; */
+}
+
+.menu{
+    width: 106px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 40px;
+    font-family: 'Varela Round', sans-serif;
+    color: #262626;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    background-color: #262626;
+    width: 100%;
+}
+
+.chamada{
+    display: grid;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.tituloPagina{
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+    color: #00776C;
+    font-size: 20px;
+}
+
+.textoPagina{
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #00776C;
+    font-size: 16px;
+}
+
+.servicos{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.servico{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 219px;
+    background-color: #00C4BA;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servico img {
+    width: 90px;
+    height: 90px;
+}
+
+.tituloBanner{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #00776C;
+    text-align: center;
+}
+
+.saibaMais{
+    width: 75px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #262626;
+    font-size: 9px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.rodape{
+    margin-top: 40px;
+    margin-bottom: -1;
+    height: 65px;
+    background-color: #A7A7A7;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
+
+.areaRodape{
+    width: 950px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+}
+
+.textoDireitos{
+    font-family: 'Varela Round', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.redesSociais{
+    padding: 10px;
+}
+
+.textoContato{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 10px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 65px;
+}
