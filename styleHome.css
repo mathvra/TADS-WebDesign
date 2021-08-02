@@ -8,6 +8,8 @@
 
 body{
     background-color: #E7E7E7;
+    height: 100vh;
+    min-height: 100%;
 }
 
 .top-header{
@@ -73,6 +75,7 @@ body{
     padding: 10px;
     justify-content: space-between;
     width: 950px;
+    min-height: 300px;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -80,8 +83,8 @@ body{
 .servico{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 219px;
+    width: 220px;
+    height: 270px;
     background-color: #00C4BA;
     border-radius: 10px;
     justify-content: space-around;
@@ -89,37 +92,51 @@ body{
 }
 
 .servico img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+}
+
+.imgPhone{
+    width: 60px !important;
+    height: 60px !important;
 }
 
 .tituloBanner{
+    margin-top: 10px;
     font-family: 'Varela Round', sans-serif;
     font-size: 12px;
     color: #00776C;
     text-align: center;
 }
 
+.textoServico{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #00776C;
+    text-align: center;
+    padding: 25px;
+}
+
 .saibaMais{
     width: 75px;
-    height: 15px;
+    height: 25px;
     background-color: #FFF;
     border-radius: 10px;
     font-family: 'Varela Round', sans-serif;
     color: #262626;
     font-size: 9px;
-    line-height: 15px;
+    line-height: 25px;
     text-align: center;
 }
 
 .rodape{
+    margin-bottom: -1px;
     margin-top: 40px;
-    margin-bottom: -1;
     height: 65px;
     background-color: #A7A7A7;
-    position:relative;
-    bottom:0;
     width:100%;
+    position: inherit;
+    bottom:0;
 }
 
 .areaRodape{

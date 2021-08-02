@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: #E7E7E7 !important;
+    height: 100vh;
+}
+
+.top-header{
+    display: flex;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: none;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+
+    /* background-color: aquamarine; */
+}
+
+.menu{
+    width: 106px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 40px;
+    font-family: 'Varela Round', sans-serif;
+    color: #262626;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tituloPagina{
+    font-family: 'Varela Round', sans-serif;
+    color: #00776C;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.formulario{
+    display: block;
+    padding: 10px;
+    justify-content: space-between;
+    width: 910px;
+    margin: 0 auto;
+}
+
+.form-group label{
+    color: #666;
+}
+
+.btn-secondary{
+    background-color: #00C4BA !important;
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+}
+
+.rodape{
+    margin-bottom: -1px;
+    margin-top: 40px;
+    height: 65px;
+    background-color: #A7A7A7;
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+
+.areaRodape{
+    width: 950px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoDireitos{
+    font-family: 'Varela Round', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    margin: 0 0 0;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+}
+
+.redesSociais{
+    padding: 10px;
+}
+
+.textoContato{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 10px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 65px;
+    margin: 0 0 0;
+}

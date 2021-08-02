@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para assinar - InterJato</title>
+    <link rel="stylesheet" href="styleAssinar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    
+    <!-- Menu de navegação entre as páginas -->
+    <header class="top-header">
+        <figure class="logo"><a href="home.html"><img src="img/logo.png" alt="Logo"></a></figure>
+        <nav class="nav-menu">
+            <a href="internet.html" class="menu">INTERNET</a>
+            <a href="#" class="menu">TV</a>
+            <a href="#" class="menu">TELEFONE</a>
+            <a href="#" class="menu">COMBO</a>
+        </nav>
+    </header>
+
+    <!-- Área de formulário -->
+    <main class="formulario">
+        <h1 class="tituloPagina">Preencha abaixo com seus dados e tenha em sua casa os melhores serviços do Brasil!</h1>
+
+        <!-- Formulário e seus respectivos campos -->
+        <form method="post">
+            <section class="form-group">
+              <label>Nome:</label>
+              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Entre com seu nome completo">
+            </section>
+            <br>
+            <section class="form-group">
+              <label>Email:</label>
+              <input type="password" class="form-control" placeholder="Entre com o seu endereço de email">
+            </section>
+            <br>
+            <section class="form-group">
+              <label>CPF ou CNPJ:</label>
+              <input type="password" class="form-control" placeholder="Apenas números">
+            </section>
+            <br>
+            <section class="form-group">
+              <label>Telefone:</label>
+              <input type="password" class="form-control" placeholder="(99) 9 9999-9999">
+            </section>
+            <br>
+            <section class="form-group">
+              <label>CEP:</label>
+              <input type="password" class="form-control" placeholder="Apenas números">
+            </section>
+            <br>
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-secondary" onclick="chamaAlert()" href="home.html">Enviar</button>
+            </div>
+          </form>
+    </main>
+    
+    <!-- Rodapé do site -->
+    <footer class="rodape">
+        <aside class="areaRodape">
+            <p class="textoDireitos">TODOS OS DIREITOS RESERVADOS</p>
+            <section class="contatos">
+                <a href="#" class="redesSociais"><img src="img/youtube.svg" alt=""></a>
+                <a href="#" class="redesSociais"><img src="img/twitter.svg" alt=""></a>
+                <a href="#" class="redesSociais"><img src="img/facebook.svg" alt=""></a>
+                <a href="#" class="redesSociais"><img src="img/instagram.svg" alt=""></a>                
+                <p class="textoContato">FALE CONOSCO: (99) 9 9999-9999</p>
+            </section>
+        </aside>
+    </footer>
+  
+    <script>
+      function chamaAlert() {
+        confirm("Formulário enviado com sucesso, em breve entraremos em contato")
+        window.location = "/home.html";
+      }
+      </script>
+</body>
+</html>
